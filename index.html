@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <header>
+            <h1>Trivia Quiz</h1>
+        </header>
+        
+        <section id="question-container">
+            <!-- Question 1 -->
+            <div class="question">
+                <h3>What is the best school in the world?</h3>
+                <div class="answer-buttons">
+                    <button class="answer-btn" data-correct="true">Basis</button>
+                    <button class="answer-btn" data-correct="false">Harvard</button>
+                    <button class="answer-btn" data-correct="false">MIT</button>
+                </div>
+                <p class="feedback"></p>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question">
+                <h3>Which school doesn't allow you to speak Chinese in China?</h3>
+                <div class="answer-buttons">
+                    <button class="answer-btn" data-correct="true">Basis</button>
+                    <button class="answer-btn" data-correct="false">Beijing Normal University</button>
+                    <button class="answer-btn" data-correct="false">Tsinghua University</button>
+                </div>
+                <p class="feedback"></p>
+            </div>
+
+        </section>
+
+        <footer>
+            <button id="reset-btn">Reset Quiz</button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
